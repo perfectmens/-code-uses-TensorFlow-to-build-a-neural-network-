@@ -25,4 +25,4 @@ model.fit(x_train, y_train, epochs=5)
 # Evaluate the model
 test_loss, test_acc = model.evaluate(x_test, y_test)
 print("Test Loss:", test_loss)
-print("Test Accuracy:", test_acc)
+print("Test Accuracy:", test_acc) 
